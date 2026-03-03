@@ -86,13 +86,21 @@ body {
 }
 
 .brand-dot {
-  width: 10px;
-  height: 10px;
+  width: 34px;
+  height: 34px;
   border-radius: 999px;
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  color: #ffffff;
   background: radial-gradient(circle at 35% 35%, #fff 0%, var(--accent) 34%, var(--accent-strong) 100%);
   box-shadow:
-    0 0 0 4px color-mix(in srgb, var(--accent) 26%, transparent),
+    0 0 0 3px color-mix(in srgb, var(--accent) 26%, transparent),
     0 0 16px color-mix(in srgb, var(--accent) 50%, transparent);
 }
 
