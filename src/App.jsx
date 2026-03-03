@@ -586,9 +586,12 @@ export default function App() {
         className="top-nav fixed top-0 w-full border-b border-white/10 bg-slate-950/40 flex justify-between items-center px-5 md:px-10 py-4 z-50"
       >
         <div className="flex items-center gap-3">
-          <span className="brand-dot" aria-hidden="true">
-            P
-          </span>
+          <img
+            src={`${import.meta.env.BASE_URL}pranjal-logo.svg`}
+            alt=""
+            aria-hidden="true"
+            className="brand-mark"
+          />
           <div>
             <p className="brand-name">{person.name}</p>
             <p className="brand-role">{person.headline}</p>

@@ -85,23 +85,12 @@ body {
   color: color-mix(in srgb, var(--text-dim) 80%, white 20%);
 }
 
-.brand-dot {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
+.brand-mark {
+  width: 36px;
+  height: 36px;
   flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1rem;
-  letter-spacing: -0.01em;
-  color: #ffffff;
-  background: radial-gradient(circle at 35% 35%, #fff 0%, var(--accent) 34%, var(--accent-strong) 100%);
-  box-shadow:
-    0 0 0 3px color-mix(in srgb, var(--accent) 26%, transparent),
-    0 0 16px color-mix(in srgb, var(--accent) 50%, transparent);
+  display: block;
+  filter: drop-shadow(0 7px 16px rgba(4, 8, 22, 0.35));
 }
 
 .top-nav {
