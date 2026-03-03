@@ -86,11 +86,11 @@ body {
 }
 
 .brand-mark {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   flex-shrink: 0;
   display: block;
-  filter: drop-shadow(0 7px 16px rgba(4, 8, 22, 0.35));
+  filter: none;
 }
 
 .top-nav {
